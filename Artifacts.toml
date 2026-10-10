@@ -1,0 +1,21 @@
+[[Uno]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8ae73d6e0936522a3bb421145b65522f2d585c30"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[Uno.download]]
+    sha256 = "14456dde9f25912daf00d4c0d0c02c2a6b5aaf6654bbe2cc6d03e8aeef9a4196"
+    url = "https://github.com/cvanaret/Uno_jll.jl/releases/download/Uno-v2.9.1+0/Uno.v2.9.1.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[Uno]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "06041a24db3cceba0cd23e94dd159e7e9f1cf73d"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[Uno.download]]
+    sha256 = "b0e7995898b05d59441e1a9cfa3b4abe554f2e8226f828aa8ca3d1341cb28d92"
+    url = "https://github.com/cvanaret/Uno_jll.jl/releases/download/Uno-v2.9.1+0/Uno.v2.9.1.x86_64-w64-mingw32-libgfortran5-cxx11.tar.gz"
